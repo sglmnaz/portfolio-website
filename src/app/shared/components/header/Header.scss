@@ -1,0 +1,32 @@
+header {
+	display: flex;
+	flex-direction: row-reverse;
+	justify-content: space-between;
+	align-items: center;
+	padding: 2rem 6rem;
+	background-color: transparent;
+	font-size: 2rem;
+	min-height: 4rem;
+	position: fixed;
+	top: 0;
+	width: 100%;
+
+	transition: 250ms ease-in-out all;
+
+	ul {
+		display: flex;
+		align-items: center;
+		list-style: none;
+		gap: 2rem;
+		li {
+			a {
+				display: flex;
+				align-items: center;
+				justify-content: center;
+				text-decoration: none;
+				color: rgb(30, 30, 30);
+				text-transform: capitalize;
+			}
+		}
+	}
+}
