@@ -9,20 +9,20 @@ export default function Header() {
 		{ label: 'Services', href: '/services' },
 	];
 
-	const [backgroundColor, setBackgroundColor] = useState('transparent');
+	const [headerClass, setHeaderClass] = useState('transparent');
 
 	const listenScrollEvent = (e: any) => {
 		if (window.scrollY > 100) {
-			setBackgroundColor('#3bab87');
+			setHeaderClass('filled');
 		} else {
-			setBackgroundColor('transparent');
+			setHeaderClass('transparent');
 		}
 	};
 
 	window.addEventListener('scroll', listenScrollEvent);
 
 	return (
-		<header style={{ backgroundColor: backgroundColor }}>
+		<header className={headerClass}>
 			<ul>
 				{links.map((link) => {
 					return (

@@ -1,31 +1,60 @@
+@use 'src/app/shared/style/variables.scss' as *;
+
 header {
 	display: flex;
-	flex-direction: row-reverse;
+	// flex-direction: row-reverse;
 	justify-content: space-between;
 	align-items: center;
-	padding: 2rem 6rem;
+	padding: 0 4rem;
 	background-color: transparent;
 	font-size: 2rem;
 	min-height: 4rem;
 	position: fixed;
 	top: 0;
 	width: 100%;
-
 	transition: 250ms ease-in-out all;
+
+	&.filled {
+		background-color: $dark0;
+	}
 
 	ul {
 		display: flex;
 		align-items: center;
 		list-style: none;
-		gap: 2rem;
 		li {
 			a {
 				display: flex;
 				align-items: center;
 				justify-content: center;
 				text-decoration: none;
-				color: rgb(30, 30, 30);
+				color: $light0;
 				text-transform: capitalize;
+				padding: 2.5rem 3.5rem;
+				transition: 100ms ease-in-out all;
+				position: relative;
+
+				&:before {
+					z-index: 5;
+					content: '';
+					width: 80%;
+					position: absolute;
+					bottom: 1.5rem;
+					height: 3px;
+					display: block;
+					background: $accent0;
+					transform: translate3d(0, 5px, 0);
+					transition: all 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+					opacity: 0;
+				}
+
+				&:hover {
+					color: white;
+					&:before {
+						opacity: 1;
+						transform: translateZ(0) scale3d(1.1, 1.1, 1.1) rotate(-0deg);
+					}
+				}
 			}
 		}
 	}

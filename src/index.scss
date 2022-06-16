@@ -1,3 +1,5 @@
+@use 'src/app/shared/style/fonts.scss';
+
 html {
 	font-size: 62.5%;
 }
@@ -9,6 +11,9 @@ body {
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 	font-size: 1.6rem;
+
+	font-family: 'Catamaran', sans-serif;
+
 	* {
 		margin: 0;
 		padding: 0;
