@@ -1,0 +1,20 @@
+@use 'src/app/shared/style/variables.scss' as *;
+
+.block {
+	padding: 5% 5%;
+	height: 100vh;
+	.container {
+		width: 100%;
+		height: 100%;
+		border-radius: 2rem;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		.column {
+			flex: 1;
+			height: 100%;
+			display: flex;
+			flex-direction: column;
+		}
+	}
+}

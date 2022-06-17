@@ -32,7 +32,6 @@ export default function Header() {
 					);
 				})}
 			</ul>
-			<h2 className="mask">Daniele Gargiulo</h2>
 		</header>
 	);
 }

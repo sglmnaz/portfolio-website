@@ -4,14 +4,36 @@ $dark2: #191919;
 $light0: #ffffff;
 $accent0: #85eb98;
 
-.background-dark0 {
+.bg-dark0 {
 	background-color: $dark0;
 }
 
-.background-dark1 {
+.bg-dark1 {
 	background-color: $dark1;
 }
 
-.background-dark2 {
+.bg-dark2 {
 	background-color: $dark2;
+}
+
+.mask {
+	background: linear-gradient(271deg, #a0e9ff 30%, #a162e8 50%, #f093b0 70%, #edca85 94%);
+	background-clip: text;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+.left-top {
+	align-items: flex-start;
+	justify-content: flex-start;
+}
+
+.center {
+	align-items: center;
+	justify-content: center;
+}
+
+.left-center {
+	align-items: flex-start;
+	justify-content: center;
 }
