@@ -5,6 +5,12 @@ html {
 	font-size: 62.5%;
 }
 
+@media (max-width: 768px) {
+	html {
+		font-size: 48.5%;
+	}
+}
+
 body {
 	margin: 0;
 	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans',
@@ -29,7 +35,7 @@ code {
 }
 
 h1 {
-	font-size: 7.2rem;
+	font-size: 6.2rem;
 	font-weight: 700;
 	font-family: 'Stoke', serif;
 }
@@ -37,4 +43,20 @@ h1 {
 h2 {
 	font-size: 4rem;
 	font-weight: 600;
+}
+
+h3 {
+	font-size: 2.2rem;
+	font-weight: 300;
+}
+
+p {
+	font-size: 1.6rem;
+	font-weight: 400;
+	&.l {
+		font-size: 1.8rem;
+	}
+	&.xl {
+		font-size: 2rem;
+	}
 }

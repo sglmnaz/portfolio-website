@@ -13,9 +13,10 @@ header {
 	top: 0;
 	width: 100%;
 	transition: 250ms ease-in-out all;
+	z-index: 100;
 
 	&.filled {
-		background-color: $dark0;
+		background-color: $dark1;
 	}
 
 	ul {
@@ -30,7 +31,7 @@ header {
 				text-decoration: none;
 				color: $light0;
 				text-transform: capitalize;
-				padding: 2.5rem 3.5rem;
+				padding: 2.5rem 2rem;
 				transition: 100ms ease-in-out all;
 				position: relative;
 

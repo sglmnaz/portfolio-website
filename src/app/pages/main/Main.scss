@@ -1,20 +1,97 @@
 @use 'src/app/shared/style/variables.scss' as *;
 
-.block {
-	padding: 5% 5%;
-	height: 100vh;
-	.container {
-		width: 100%;
-		height: 100%;
-		border-radius: 2rem;
+.page.main {
+	section {
+		background-color: $dark1;
+		padding: 5% 5%;
 		display: flex;
 		justify-content: center;
 		align-items: center;
-		.column {
-			flex: 1;
-			height: 100%;
+
+		&.napoli {
+			background-image: url('/assets/images/napoli2.jpg');
+			background-size: cover;
+			background-position: center;
+			background-repeat: no-repeat;
+			height: 80vh;
+			position: relative;
+			* {
+				filter: drop-shadow(0px 3px 4px #011b3750);
+			}
+			.gradient {
+				width: 100%;
+				height: 8rem;
+				position: absolute;
+				bottom: 0;
+				left: 0;
+				background: linear-gradient(transparent 0%, $dark1 100%);
+			}
+		}
+
+		.portrait-container {
 			display: flex;
 			flex-direction: column;
+			justify-content: center;
+			align-items: center;
+			height: 100%;
+			width: 100%;
+			overflow: hidden;
+			border-radius: 20px;
+
+			&:hover {
+				.portrait {
+					transform: scale(1.02) scaleX(-1);
+				}
+			}
+
+			animation: portrait-animation 6s ease-in-out infinite;
+
+			@keyframes portrait-animation {
+				5% {
+					transform: translateY(0);
+				}
+				50% {
+					transform: translateY(-10px);
+				}
+				55% {
+					transform: translateY(-10px);
+				}
+				100% {
+					transform: translateY(0);
+				}
+			}
+
+			.portrait {
+				width: 100%;
+				height: 100%;
+				object-fit: contain;
+				transition: 250ms ease-in-out;
+			}
+		}
+
+		.container {
+			width: 100%;
+			height: 100%;
+			border-radius: 2rem;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			.column {
+				flex: 1;
+				height: 100%;
+				display: flex;
+				flex-direction: column;
+				gap: 2rem;
+			}
+		}
+	}
+}
+
+// media query turn .container into a flex colum on mobile
+@media (max-width: 768px) {
+	.page.main {
+		.container {
+			flex-direction: column !important;
 		}
 	}
 }
