@@ -35,6 +35,12 @@ header {
 				transition: 100ms ease-in-out all;
 				position: relative;
 
+				&.active {
+					opacity: 50%;
+					color: $accent0;
+					pointer-events: none;
+				}
+
 				&:before {
 					z-index: 5;
 					content: '';
