@@ -1,6 +1,7 @@
 import React from 'react';
 import './Main.scss';
 import { ReactComponent as PinIcon } from '../../../assets/icons/pin.svg';
+import Timeline from './components/Timeline';
 
 function Main() {
 	return (
@@ -47,9 +48,11 @@ function Main() {
 				</div>
 			</section>
 
-			{/* skills */}
+			{/* timeline */}
 			<section>
-				<div className={'container bg-dark2'}></div>
+				<div className={'container'}>
+					<Timeline />
+				</div>
 			</section>
 		</div>
 	);
