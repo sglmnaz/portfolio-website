@@ -1,0 +1,43 @@
+@use 'src/app/shared/style/variables.scss' as *;
+
+.page {
+	min-height: 100vh;
+	background-color: $dark1;
+	&.header-padding {
+		padding-top: 8rem;
+	}
+
+	section {
+		padding: 5% 5%;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		// border: 2px solid red;       //! activate debug lines
+
+		.container {
+			width: 100%;
+			height: 100%;
+			border-radius: 2rem;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			// border: 2px solid blue;       //! activate debug lines
+			.column {
+				flex: 1;
+				height: 100%;
+				display: flex;
+				flex-direction: column;
+				gap: 2rem;
+			}
+		}
+	}
+}
+
+// media query turn .container into a flex colum on mobile
+@media (max-width: 768px) {
+	.page {
+		.container {
+			flex-direction: column !important;
+		}
+	}
+}

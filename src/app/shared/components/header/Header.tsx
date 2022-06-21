@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
 import './Header.scss';
 
 export default function Header() {
@@ -31,7 +32,7 @@ export default function Header() {
 				{links.map((link) => {
 					return (
 						<li>
-							<a href={link.href}>{link.label}</a>
+							<Link to={link.href}>{link.label}</Link>
 						</li>
 					);
 				})}
