@@ -27,13 +27,9 @@ $accent0: #85eb98;
 	background-color: $accent0;
 }
 
-.font0 {
-	font-family: 'Nunito', sans-serif;
-}
-
-.font1 {
-	font-family: 'Stoke', serif;
-}
+$font0: 'Nunito', sans-serif;
+$font1: 'Stoke', serif;
+$font2: 'Trade Winds', cursive;
 
 .mask {
 	background: linear-gradient(271deg, #a0e9ff 30%, #a162e8 50%, #f093b0 70%, #edca85 94%);

@@ -19,6 +19,11 @@ header {
 		background-color: $dark1;
 	}
 
+	.initials {
+		font-family: $font2;
+		font-weight: 800;
+	}
+
 	ul {
 		display: flex;
 		align-items: center;

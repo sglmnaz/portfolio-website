@@ -7,13 +7,13 @@ function Main() {
 	return (
 		<div className="page main">
 			{/* banner */}
-			<section className={'napoli'}>
+			<section className={'banner'}>
 				<video autoPlay playsInline muted loop style={{ width: '100%', height: '100%', objectFit: 'cover', position: 'absolute' }}>
 					<source src={require('../../../assets/videos/video2.mp4')} type="video/mp4" />
 				</video>
 				<div className="gradient"></div>
 				<div className={'container'}>
-					<div className={'column center banner'} style={{ marginRight: '4rem' }}>
+					<div className={'column center'} style={{ marginRight: '4rem' }}>
 						<h2>Daniele Gargiulo</h2>
 						<h3>Software developer</h3>
 					</div>
@@ -21,7 +21,7 @@ function Main() {
 			</section>
 
 			{/* about */}
-			<section>
+			<section className=" hero">
 				<div className={'container'}>
 					{/* presentation */}
 					<div className={'column center'}>
@@ -39,7 +39,6 @@ function Main() {
 							When i'm not at work you’ll find me playing games, watching cartoons or walking around my city.
 						</p>
 					</div>
-
 					{/* portrait */}
 					<div className={'column center'} style={{ flex: '0.75' }}>
 						<div className="portrait-container ">

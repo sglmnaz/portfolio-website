@@ -10,32 +10,30 @@
 	}
 
 	section {
-		padding: 5% 5%;
 		display: flex;
+		flex-direction: column;
 		justify-content: center;
 		align-items: center;
 		position: relative;
+		// border: 2px solid green; //! activate debug lines
 
 		.section-title {
-			position: absolute;
+			width: 100%;
 			z-index: 1;
-			top: -4rem;
-			left: 2rem;
 			font-size: 3.6rem;
-			font-family: 'Stoke', serif;
+			font-family: $font0;
 			font-weight: 700;
-			padding: 2rem 4rem;
-			border-radius: 30px 30px 0 0;
+			padding: 4rem 5%;
 		}
 
 		.container {
-			width: 100%;
+			margin: 5% auto;
+			width: 90%;
 			height: 100%;
-			border-radius: 2rem;
 			display: flex;
 			justify-content: center;
 			align-items: center;
-			// border: 2px solid blue;       //! activate debug lines
+			// border: 2px solid blue; //! activate debug lines
 			.column {
 				flex: 1;
 				height: 100%;

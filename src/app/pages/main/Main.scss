@@ -2,7 +2,7 @@
 
 .page.main {
 	section {
-		&.napoli {
+		&.banner {
 			background-image: url('/assets/images/napoli2.jpg');
 			background-size: cover;
 			background-position: center;
@@ -20,6 +20,12 @@
 				bottom: 0;
 				left: 0;
 				background: linear-gradient(transparent 0%, $dark1 100%);
+			}
+		}
+
+		&.hero {
+			.container {
+				gap: 4rem;
 			}
 		}
 
