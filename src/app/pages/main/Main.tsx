@@ -1,22 +1,23 @@
-import React from 'react';
 import './Main.scss';
-import { ReactComponent as PinIcon } from '../../../assets/icons/pin.svg';
-import Timeline from './components/Timeline';
+// import { ReactComponent as PinIcon } from '../../../assets/icons/pin.svg';
+import Timeline from './components/timeline/Timeline';
+import Skills from './components/skills/Skills';
 
 function Main() {
 	return (
 		<div className="page main">
 			{/* banner */}
 			<section className={'napoli'}>
+				<video autoPlay playsInline muted loop style={{ width: '100%', height: '100%', objectFit: 'cover', position: 'absolute' }}>
+					<source src={require('../../../assets/videos/video2.mp4')} type="video/mp4" />
+				</video>
+				<div className="gradient"></div>
 				<div className={'container'}>
-					<div className={'column center'} style={{ marginRight: '4rem' }}>
-						<h2>Software developer</h2>
-						<h3>
-							<PinIcon style={{ display: 'inline', width: '1.2rem' }}></PinIcon> Napoli metropolitan area
-						</h3>
+					<div className={'column center banner'} style={{ marginRight: '4rem' }}>
+						<h2>Daniele Gargiulo</h2>
+						<h3>Software developer</h3>
 					</div>
 				</div>
-				<div className="gradient"></div>
 			</section>
 
 			{/* about */}
@@ -48,8 +49,17 @@ function Main() {
 				</div>
 			</section>
 
+			{/* skills */}
+			<section className={'bg-dark0'}>
+				<span className="section-title">Skills</span>
+				<div className={'container dark0'}>
+					<Skills />
+				</div>
+			</section>
+
 			{/* timeline */}
 			<section>
+				<span className="section-title">Timeline</span>
 				<div className={'container'}>
 					<Timeline />
 				</div>

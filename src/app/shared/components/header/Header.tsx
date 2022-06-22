@@ -25,8 +25,13 @@ export default function Header() {
 
 	return (
 		<header className={headerClass}>
-			<span>
-				<b>D.G.</b>
+			<span
+				style={{ cursor: 'pointer' }}
+				onClick={() => {
+					window.scrollTo(0, 0);
+				}}
+			>
+				<b>DG</b>
 			</span>
 			<ul>
 				{links.map((link) => {

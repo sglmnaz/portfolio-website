@@ -27,8 +27,17 @@ $accent0: #85eb98;
 	background-color: $accent0;
 }
 
+.font0 {
+	font-family: 'Nunito', sans-serif;
+}
+
+.font1 {
+	font-family: 'Stoke', serif;
+}
+
 .mask {
 	background: linear-gradient(271deg, #a0e9ff 30%, #a162e8 50%, #f093b0 70%, #edca85 94%);
+	// filter: drop-shadow(4px 4px 1px #ff000080) drop-shadow(-4px -4px 1px #0000ff80);
 	background-clip: text;
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
