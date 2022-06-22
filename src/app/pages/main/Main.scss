@@ -21,6 +21,31 @@
 				left: 0;
 				background: linear-gradient(transparent 0%, $dark1 100%);
 			}
+			.contacts {
+				display: flex;
+				gap: 2rem;
+				font-size: 3rem;
+				cursor: pointer;
+				/* unvisited link */
+				a:link {
+					color: $light0;
+				}
+
+				/* visited link */
+				a:visited {
+					color: $light0;
+				}
+
+				/* mouse over link */
+				a:hover {
+					color: $accent0;
+				}
+
+				/* selected link */
+				a:active {
+					color: $accent0;
+				}
+			}
 		}
 
 		&.hero {

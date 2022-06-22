@@ -2,6 +2,9 @@ import './Main.scss';
 // import { ReactComponent as PinIcon } from '../../../assets/icons/pin.svg';
 import Timeline from './components/timeline/Timeline';
 import Skills from './components/skills/Skills';
+import { FaGithub, FaEnvelope, FaLinkedin } from 'react-icons/fa';
+
+const contactsIcons = require.context('../../../assets/icons/contacts', true);
 
 function Main() {
 	return (
@@ -16,6 +19,23 @@ function Main() {
 					<div className={'column center'} style={{ marginRight: '4rem' }}>
 						<h2>Daniele Gargiulo</h2>
 						<h3>Software developer</h3>
+						<div className="contacts">
+							<a href="https://github.com/sglmnaz" target="_blank">
+								<FaGithub />
+							</a>
+							<a
+								href="mailto: daniele.gargiulo.1996@gmail.com"
+								target="_blank"
+								onClick={() => {
+									alert('My email is: daniele.gargiulo.1996@gmail.com');
+								}}
+							>
+								<FaEnvelope />
+							</a>
+							<a href="https://www.linkedin.com/in/daniele-gargiulo/" target="_blank">
+								<FaLinkedin />
+							</a>
+						</div>
 					</div>
 				</div>
 			</section>

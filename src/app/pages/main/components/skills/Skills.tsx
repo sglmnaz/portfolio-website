@@ -78,10 +78,10 @@ function Skills() {
 }
 
 function getSkillsItems(skills: skill[]) {
-	return skills.map((skill) => {
+	return skills.map((skill, index) => {
 		return (
-			<div className="skill">
-				<img key={skill.title} src={images(skill.src)} alt={skill.title}></img>
+			<div key={index} className="skill">
+				<img src={images(skill.src)} alt={skill.title}></img>
 				<span>{skill.title}</span>
 			</div>
 		);
