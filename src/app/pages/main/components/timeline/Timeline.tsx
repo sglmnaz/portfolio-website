@@ -11,7 +11,7 @@ function getTimelineItems(entries: TimelineEntry[]) {
 		return (
 			<div className="timeline-row" key={index}>
 				<div className="date">
-					{entry.startDate} - {entry.endDate}
+					{entry.startDate} | {entry.endDate}
 				</div>
 				<div className="line">
 					<div className="point"></div>

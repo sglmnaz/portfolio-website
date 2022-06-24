@@ -55,32 +55,32 @@
   ],
   "timelineData": [
     {
-      "startDate": "2019",
-      "endDate": "2019",
+      "startDate": "2017-01",
+      "endDate": "2018-09",
       "company": "Self-Employed",
       "title": "Freelancer game developer",
-      "description": "I started working as a freelancer in 2019. I was working on a project for a client, and I was able to get a job as a freelancer."
+      "description": "I worked, in team with a group of friends, to develop mobile games in the Unity game engine."
     },
     {
-      "startDate": "2019",
-      "endDate": "2019",
+      "startDate": "2018-09",
+      "endDate": "2019-09",
       "company": "Apple Developer Academy",
       "title": "iOS Developer Apprentice",
-      "description": "I started working as a full-time developer in 2020. I was working on a project for a client, and I was able to get a job as a full-time developer."
+      "description": "I attended the Apple Developer Academy in Napoli, where i learned how to concive, wireframe, design and develop native mobile apps. During this period I worked on four different projects, together with my peers at the Academy."
     },
     {
-      "startDate": "2019",
-      "endDate": "2020",
+      "startDate": "2020-08",
+      "endDate": "2022-03",
       "company": "SyncLab",
       "title": "Full stack developer",
-      "description": "I started working as a part-time developer in 2020. I was working on a project for a client, and I was able to get a job as a part-time developer."
+      "description": "I started working as full-time developer in 2020. I was working on a project in the maritime field called SeaStream, a web application designed for naval companies with the purpose of tracking their ships across the world and to monitor in real time all the data recieved from the sensor available on those ships."
     },
     {
-      "startDate": "2020",
-      "endDate": "2022",
+      "startDate": "2022-03",
+      "endDate": "ongoing",
       "company": "CodicePlastico",
       "title": "Full stack developer",
-      "description": "I started working as a remote developer in 2020. I was working on a project for a client, and I was able to get a job as a remote developer."
+      "description": "I'm currently working remotely for CodicePlastico as full-stack developer. My role here is to help other companies to design and develop IT services for their necessities. Currently i'm working for a company in the energy field, developing a web portal for the end user to monitor data coming from IoT devices installed all over the country."
     }
   ]
 }
