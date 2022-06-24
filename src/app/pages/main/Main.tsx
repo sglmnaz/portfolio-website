@@ -1,10 +1,7 @@
 import './Main.scss';
-// import { ReactComponent as PinIcon } from '../../../assets/icons/pin.svg';
 import Timeline from './components/timeline/Timeline';
 import Skills from './components/skills/Skills';
 import { FaGithub, FaEnvelope, FaLinkedin } from 'react-icons/fa';
-
-const contactsIcons = require.context('../../../assets/icons/contacts', true);
 
 function Main() {
 	return (
@@ -80,7 +77,7 @@ function Main() {
 			<section>
 				<span className="section-title">Timeline</span>
 				<div className={'container'}>
-					<Timeline />
+					<Timeline reverse={false} />
 				</div>
 			</section>
 		</div>

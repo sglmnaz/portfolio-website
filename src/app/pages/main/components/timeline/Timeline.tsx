@@ -1,57 +1,26 @@
 import React from 'react';
 import './Timeline.scss';
+const { timelineData } = require('src/config/config.json');
 
-function Timeline() {
-	const timelineEntries = [
-		{
-			startDate: '2019',
-			endDate: '2019',
-			company: 'Self-Employed',
-			title: 'Freelancer game developer',
-			description:
-				'I started working as a freelancer in 2019. I was working on a project for a client, and I was able to get a job as a freelancer.',
-		},
-		{
-			startDate: '2019',
-			endDate: '2019',
-			company: 'Apple Developer Academy',
-			title: 'iOS Developer Apprentice',
-			description:
-				'I started working as a full-time developer in 2020. I was working on a project for a client, and I was able to get a job as a full-time developer.',
-		},
-		{
-			startDate: '2019',
-			endDate: '2020',
-			company: 'SyncLab',
-			title: 'Full stack developer',
-			description:
-				'I started working as a part-time developer in 2020. I was working on a project for a client, and I was able to get a job as a part-time developer.',
-		},
-		{
-			startDate: '2020',
-			endDate: new Date().getFullYear().toString(),
-			company: 'CodicePlastico',
-			title: 'Full stack developer',
-			description:
-				'I started working as a remote developer in 2020. I was working on a project for a client, and I was able to get a job as a remote developer.',
-		},
-	];
-
-	return <div className="timeline">{getTimelineItems(timelineEntries)}</div>;
+function Timeline({ reverse = false }) {
+	return <div className={'timeline ' + (reverse ? 'reverse' : '')}>{getTimelineItems(timelineData)}</div>;
 }
 
 function getTimelineItems(entries: TimelineEntry[]) {
 	return entries.map((entry: TimelineEntry, index: number) => {
 		return (
-			<div className="timeline-card" key={index}>
-				<div className="header row">
-					<div className="company">{entry.company}</div>
-					<div className="date">
-						{entry.startDate} - {entry.endDate}
-					</div>
+			<div className="timeline-row" key={index}>
+				<div className="date">
+					{entry.startDate} - {entry.endDate}
 				</div>
-				<div className="title">{entry.title}</div>
-				<div className="description">{entry.description}</div>
+				<div className="line">
+					<div className="point"></div>
+				</div>
+				<div className="data">
+					<h3 className="title">{entry.title}</h3>
+					<span className="company">{entry.company}</span>
+					<p className="description">{entry.description}</p>
+				</div>
 			</div>
 		);
 	});
