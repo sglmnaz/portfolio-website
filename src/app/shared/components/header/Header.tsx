@@ -26,7 +26,7 @@ export default function Header() {
 	return (
 		<header className={headerClass}>
 			<span
-				className="initials"
+				className="initials desktop"
 				style={{ cursor: 'pointer' }}
 				onClick={() => {
 					window.scrollTo(0, 0);

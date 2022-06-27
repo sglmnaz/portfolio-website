@@ -28,6 +28,12 @@ header {
 		display: flex;
 		align-items: center;
 		list-style: none;
+
+		@media (max-width: 768px) {
+			flex: 1;
+			justify-content: center;
+		}
+
 		li {
 			a {
 				display: flex;

@@ -10,6 +10,14 @@ html {
 	html {
 		font-size: 48.5%;
 	}
+	.desktop {
+		display: none;
+	}
+}
+@media (min-width: 768px) {
+	.mobile {
+		display: none;
+	}
 }
 
 body {
