@@ -20,7 +20,7 @@ function Main() {
 				</video>
 				<div className="gradient"></div>
 				<div className={'container'}>
-					<div className={'column center'} style={{ marginRight: '4rem' }}>
+					<div className={'column center'}>
 						<h2>Daniele Gargiulo</h2>
 						<h3>Software developer</h3>
 						<div className="contacts">
