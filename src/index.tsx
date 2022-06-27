@@ -5,10 +5,11 @@ import App from './app/App';
 import reportWebVitals from './reportWebVitals';
 import { BrowserRouter } from 'react-router-dom';
 
+const { baseURL } = require('src/config/config.json');
 const root = ReactDOM.createRoot(document.getElementById('root') as HTMLElement);
 root.render(
 	<React.StrictMode>
-		<BrowserRouter>
+		<BrowserRouter basename={baseURL}>
 			<App />
 		</BrowserRouter>
 	</React.StrictMode>

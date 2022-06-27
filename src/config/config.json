@@ -1,4 +1,5 @@
 {
+  "baseURL": "portfolio-website",
   "skills": [
     {
       "src": "./typescript.svg",
