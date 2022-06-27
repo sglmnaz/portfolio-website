@@ -8,7 +8,14 @@ function Main() {
 		<div className="page main">
 			{/* banner */}
 			<section className={'banner'}>
-				<video autoPlay playsInline muted loop style={{ width: '100%', height: '100%', objectFit: 'cover', position: 'absolute' }}>
+				<video
+					autoPlay
+					playsInline
+					muted
+					loop
+					preload="auto"
+					style={{ width: '100%', height: '100%', objectFit: 'cover', position: 'absolute' }}
+				>
 					<source src={require('../../../assets/videos/video2.mp4')} type="video/mp4" />
 				</video>
 				<div className="gradient"></div>
