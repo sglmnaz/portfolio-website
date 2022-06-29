@@ -83,5 +83,25 @@
       "title": "Full stack developer",
       "description": "I'm currently working remotely for CodicePlastico as full-stack developer. My role here is to help other companies to design and develop IT services for their necessities. Currently i'm working for a company in the energy field, developing a web portal for the end user to monitor data coming from IoT devices installed all over the country."
     }
+  ],
+  "projects": [
+    {
+      "title": "everportal",
+      "technologies": [
+        "swift",
+        "spritekit",
+        "aseprite",
+        "pixelart",
+        "audacity"
+      ],
+      "description": "everportal is a mobile game that ...",
+      "links": [
+        {
+          "title": "behance",
+          "url": "",
+          "icon": "./behance"
+        }
+      ]
+    }
   ]
 }
