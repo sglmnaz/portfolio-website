@@ -2,6 +2,7 @@ import { type } from '@testing-library/user-event/dist/type';
 import React from 'react';
 import './Projects.scss';
 import { FaGithub, FaEnvelope, FaLinkedin, FaBehance, FaGlobe } from 'react-icons/fa';
+import { GoBrowser } from 'react-icons/go';
 import { IoLogoGooglePlaystore } from 'react-icons/io5';
 const { projects } = require('src/config/config.json');
 const covers = require.context('src/assets/images/projects', true);
@@ -65,10 +66,30 @@ type ProjectData = {
 
 function getIcon(title: string) {
 	const map: { [key: string]: any } = {
-		behance: <FaBehance />,
-		github: <FaGithub />,
-		website: <FaGlobe />,
-		playstore: <IoLogoGooglePlaystore />,
+		behance: (
+			<>
+				<span>preview on</span>
+				<FaBehance />
+			</>
+		),
+		github: (
+			<>
+				<span>source code</span>
+				<FaGithub />
+			</>
+		),
+		website: (
+			<>
+				<span>navigate</span>
+				<GoBrowser />
+			</>
+		),
+		playstore: (
+			<>
+				<span>download page</span>
+				<IoLogoGooglePlaystore />
+			</>
+		),
 	};
 
 	return map[title];

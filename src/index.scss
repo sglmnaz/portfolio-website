@@ -1,5 +1,8 @@
-@use 'src/app/shared/style/fonts.scss';
+@use 'src/app/shared/style/fonts.scss' as *;
 @use 'src/app/shared/style/variables.scss' as *;
+@use 'src/app/shared/style/global.scss' as *;
+@use 'src/app/shared/style/global.scss' as *;
+@use 'src/app/shared/style/scrollbars.scss' as *;
 
 html {
 	font-size: 62.5%;
@@ -72,6 +75,7 @@ p {
 
 a:link {
 	color: $light0;
+	text-decoration: none;
 }
 
 /* visited link */

@@ -96,9 +96,11 @@
         "audacity"
       ],
       "description": [
-        "In a universe once peaceful and happy, strange portals suddenly appears, allowing otherwordly creatures from other dimensions to roam freely and spread evil all around.",
-        "It's the duty of your team to bring back peace, thanks to the ability to travel inside the Everportals connecting every known place. It is a Roguelike game featuring pixelart graphics.",
-        "It is available for iOS devices trough the Appstore and was developed during the Apple Developer Academy. Developed entirely with native frameworks and languages ​​(Swift, SpriteKit) by a team of 5 developers, it was positively evaluated by Apple mentors and officially presented at the Academy future fair 2019."
+        "In a universe once peaceful and happy, strange portals start to appear. Otherwordly creatures are invading our reality, spreading evil all around.",
+        "It's the duty of the keepers of the Everportals to restore peace! Harness the power of the Everportals and send the creatures back to their homes",
+        "Everportal is available for iOS devices trough the Appstore. It was developed as a team project with the joined effort of my peers at the Apple Developer Academy.",
+        "Developed entirely with native frameworks and languages ​​(Swift, SpriteKit), it was positively evaluated by Apple mentors and officially presented at the Academy future fair 2019.",
+        "A remastered version is currently planned, rebuilt entirely on Unity and coming to Android and iOS"
       ],
       "links": [
         {
@@ -106,7 +108,7 @@
           "url": "https://www.behance.net/gallery/83661565/Everportal"
         }
       ],
-      "cover": "./everportal.gif"
+      "cover": "./everportal.png"
     },
     {
       "title": "galaxi",
@@ -137,8 +139,8 @@
         "C#"
       ],
       "description": [
-        "It is a mobile game available on the Android store.",
-        "Developed via Unity game engine and made by a team of friends who are passionate about gaming and development.",
+        "It is a mobile game available on the Google Play Store.",
+        "Developed on the Unity game engine by a team of friends with the passion for gaming and development.",
         "In this project I dealt with the implementation of the game logic and the main gameplay mechanics. I also contributed to the creation of graphic assets and sound effects."
       ],
       "links": [
@@ -187,7 +189,7 @@
       ],
       "description": [
         "A web applications with the purpose of monitoring IoT devices installed all around the country.",
-        "I worked on this project with my collegues in CodicePlastico as external resource for A2A, My main role was to develop new functionalities and services requested to my company from A2A"
+        "I worked on this project with my collegues in CodicePlastico as external resource for A2A, My main role was to develop new functionalities and services requested to my company."
       ],
       "links": [
         {

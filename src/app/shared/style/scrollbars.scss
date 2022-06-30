@@ -1,0 +1,21 @@
+@use 'src/app/shared/style/variables.scss' as *;
+
+/* width */
+::-webkit-scrollbar {
+	width: 8px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+	background: $dark0;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+	background: $accent1;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+	background: $accent0;
+}

@@ -27,7 +27,7 @@ function Main() {
 							<a href="https://github.com/sglmnaz" target="_blank">
 								<FaGithub />
 							</a>
-							<a
+							{/* <a
 								href="mailto: daniele.gargiulo.1996@gmail.com"
 								target="_blank"
 								onClick={() => {
@@ -35,7 +35,7 @@ function Main() {
 								}}
 							>
 								<FaEnvelope />
-							</a>
+							</a> */}
 							<a href="https://www.linkedin.com/in/daniele-gargiulo/" target="_blank">
 								<FaLinkedin />
 							</a>
