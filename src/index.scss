@@ -69,3 +69,22 @@ p {
 		font-size: 2rem;
 	}
 }
+
+a:link {
+	color: $light0;
+}
+
+/* visited link */
+a:visited {
+	color: $light0;
+}
+
+/* mouse over link */
+a:hover {
+	color: $accent0;
+}
+
+/* selected link */
+a:active {
+	color: $accent0;
+}

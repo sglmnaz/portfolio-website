@@ -1,0 +1,77 @@
+@use 'src/app/shared/style/variables.scss' as *;
+
+.page.projects {
+	section {
+	}
+
+	.project {
+		width: 100%;
+		.container {
+			@media (max-width: 768px) {
+				flex-direction: column;
+			}
+			min-height: 70vh;
+			background-color: $dark2;
+			border-radius: 15px;
+			overflow: hidden;
+			margin: 4rem auto;
+			div {
+				align-self: stretch;
+				&.cover {
+					flex: 1;
+					background-color: white;
+					background-position: center;
+					background-size: cover;
+					background-repeat: no-repeat;
+					min-height: 50vh;
+				}
+				&.body {
+					flex: 1;
+					padding: 2rem 4rem;
+					display: flex;
+					flex-direction: column;
+					gap: 2rem;
+					justify-content: flex-start;
+					align-items: flex-start;
+
+					.title {
+						text-transform: capitalize;
+					}
+
+					.technologies {
+						display: flex;
+						flex-direction: row;
+						flex-wrap: wrap;
+						.technology {
+							margin-bottom: 0.5rem;
+							margin-right: 0.5rem;
+							background-color: $dark1;
+							padding: 0.5rem 1rem;
+							border-radius: 15px;
+							text-transform: capitalize;
+						}
+					}
+					.description {
+						flex: 1;
+						display: flex;
+						flex-direction: column;
+						gap: 2rem;
+						opacity: 80%;
+					}
+					.footer {
+						display: flex;
+						justify-content: space-between;
+						.role {
+							opacity: 70%;
+							font-size: 1.4rem;
+							text-transform: capitalize;
+						}
+						.links {
+							font-size: 2.4rem;
+						}
+					}
+				}
+			}
+		}
+	}
+}

@@ -87,6 +87,7 @@
   "projects": [
     {
       "title": "everportal",
+      "role": "developer, designer",
       "technologies": [
         "swift",
         "spritekit",
@@ -94,14 +95,107 @@
         "pixelart",
         "audacity"
       ],
-      "description": "everportal is a mobile game that ...",
+      "description": [
+        "In a universe once peaceful and happy, strange portals suddenly appears, allowing otherwordly creatures from other dimensions to roam freely and spread evil all around.",
+        "It's the duty of your team to bring back peace, thanks to the ability to travel inside the Everportals connecting every known place. It is a Roguelike game featuring pixelart graphics.",
+        "It is available for iOS devices trough the Appstore and was developed during the Apple Developer Academy. Developed entirely with native frameworks and languages ​​(Swift, SpriteKit) by a team of 5 developers, it was positively evaluated by Apple mentors and officially presented at the Academy future fair 2019."
+      ],
       "links": [
         {
           "title": "behance",
-          "url": "",
-          "icon": "./behance"
+          "url": "https://www.behance.net/gallery/83661565/Everportal"
         }
-      ]
+      ],
+      "cover": "./everportal.gif"
+    },
+    {
+      "title": "galaxi",
+      "role": "designer, developer",
+      "technologies": [
+        "swift",
+        "spritekit",
+        "Illustrator",
+        "After Effects"
+      ],
+      "description": [
+        "Galaxi helps you focus during your activities and lets you visualize your efforts. Help Pipo in his journey to colonize new planets  all around the galaxy and make them flourish. With your help Pipo will be able to find a new home for his specie."
+      ],
+      "links": [
+        {
+          "title": "behance",
+          "url": "https://www.behance.net/gallery/83661091/Galaxi"
+        }
+      ],
+      "cover": "./galaxi.png"
+    },
+    {
+      "title": "target stuff",
+      "role": "developer, designer",
+      "technologies": [
+        "unity",
+        "illustrator",
+        "C#"
+      ],
+      "description": [
+        "It is a mobile game available on the Android store.",
+        "Developed via Unity game engine and made by a team of friends who are passionate about gaming and development.",
+        "In this project I dealt with the implementation of the game logic and the main gameplay mechanics. I also contributed to the creation of graphic assets and sound effects."
+      ],
+      "links": [
+        {
+          "title": "playstore",
+          "url": "https://play.google.com/store/apps/details?id=it.GreenLizardGames.TargetStuff&hl=en&gl=US"
+        }
+      ],
+      "cover": "./targetstuff.png"
+    },
+    {
+      "title": "seastream",
+      "role": "developer, designer",
+      "technologies": [
+        "typescript",
+        "node.js",
+        "angular",
+        "postgreSQL",
+        "HTML",
+        "SCSS"
+      ],
+      "description": [
+        "A collection of web applications with the purpose of monitoring marine traffic, improve vessels tracking and allow navigation companies to find in real time the status of their ships and on-board equipment.",
+        "I worked on this project with my collegues in SyncLab from 2020 to 2022, My main role was to redesign e develop the UI/UX of all the sub-apps of Seastream while also implementing some of the APIs and backend logic"
+      ],
+      "links": [
+        {
+          "title": "website",
+          "url": "https://www.synclab.it/maritime/seastream.html"
+        }
+      ],
+      "cover": "./eharbor.png"
+    },
+    {
+      "title": "A2A Smartcity",
+      "role": "developer",
+      "technologies": [
+        "node.js",
+        "react",
+        "kubernetes",
+        "docker",
+        "postgreSQL",
+        "javascript",
+        "HTML",
+        "SCSS"
+      ],
+      "description": [
+        "A web applications with the purpose of monitoring IoT devices installed all around the country.",
+        "I worked on this project with my collegues in CodicePlastico as external resource for A2A, My main role was to develop new functionalities and services requested to my company from A2A"
+      ],
+      "links": [
+        {
+          "title": "website",
+          "url": "https://www.cityeye.it/"
+        }
+      ],
+      "cover": "./smartcity.png"
     }
   ]
 }
