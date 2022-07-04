@@ -1,12 +1,19 @@
 {
   "files": {
-    "main.css": "/portfolio-website/static/css/main.ee1b3b43.css",
-    "main.js": "/portfolio-website/static/js/main.4b56ef15.js",
+    "main.css": "/portfolio-website/static/css/main.e0b13add.css",
+    "main.js": "/portfolio-website/static/js/main.26b033d4.js",
     "static/js/787.749b4a44.chunk.js": "/portfolio-website/static/js/787.749b4a44.chunk.js",
     "static/media/video3.mp4": "/portfolio-website/static/media/video3.aeaac464d3e1ab4da908.mp4",
     "static/media/video2.mp4": "/portfolio-website/static/media/video2.95d6477ee4b40ab65a74.mp4",
+    "static/media/seastream.png": "/portfolio-website/static/media/seastream.f91bb9c16e10725adef2.png",
+    "static/media/eharbor.png": "/portfolio-website/static/media/eharbor.7a91145f0f38ecdee56f.png",
+    "static/media/smartcity.png": "/portfolio-website/static/media/smartcity.b4f2ccdb8a290a5d3778.png",
     "static/media/portrait_4_square_2.png": "/portfolio-website/static/media/portrait_4_square_2.a1cb576d4f3d26aa32a0.png",
+    "static/media/everportal.png": "/portfolio-website/static/media/everportal.c2469b3c7644cc300714.png",
     "static/media/napoli2.jpg": "/portfolio-website/static/media/napoli2.ef8b4d0bde793531d240.jpg",
+    "static/media/everportal.gif": "/portfolio-website/static/media/everportal.e500e48c7f916068e5b3.gif",
+    "static/media/targetstuff.png": "/portfolio-website/static/media/targetstuff.dc07b03e8cec5c456b17.png",
+    "static/media/galaxi.png": "/portfolio-website/static/media/galaxi.c54db73fba0ea53e824f.png",
     "static/media/nodejs.svg": "/portfolio-website/static/media/nodejs.5a3a9ca294db05398848.svg",
     "static/media/postgresql.svg": "/portfolio-website/static/media/postgresql.7c0ecebe3a8282bd680c.svg",
     "static/media/postman-icon.svg": "/portfolio-website/static/media/postman-icon.648705b5f6469f0767a4.svg",
@@ -30,12 +37,12 @@
     "static/media/unity.svg": "/portfolio-website/static/media/unity.ffa4e316327bad4b5338.svg",
     "static/media/figma.svg": "/portfolio-website/static/media/figma.f4520722e44b6d0f10bd.svg",
     "index.html": "/portfolio-website/index.html",
-    "main.ee1b3b43.css.map": "/portfolio-website/static/css/main.ee1b3b43.css.map",
-    "main.4b56ef15.js.map": "/portfolio-website/static/js/main.4b56ef15.js.map",
+    "main.e0b13add.css.map": "/portfolio-website/static/css/main.e0b13add.css.map",
+    "main.26b033d4.js.map": "/portfolio-website/static/js/main.26b033d4.js.map",
     "787.749b4a44.chunk.js.map": "/portfolio-website/static/js/787.749b4a44.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ee1b3b43.css",
-    "static/js/main.4b56ef15.js"
+    "static/css/main.e0b13add.css",
+    "static/js/main.26b033d4.js"
   ]
 }
